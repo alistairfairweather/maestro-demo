@@ -1,0 +1,8 @@
+build:
+  steps:
+    builder:
+      name: builder
+      dockerfile: Dockerfile.builder
+    uploader:
+      name: uploader
+      dockerfile: Dockerfile
